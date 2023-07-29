@@ -1,0 +1,26 @@
+.sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 60px;
+  min-height: 100vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .sign-container {
+    margin: 300px;
+  }
+  .sign-container {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

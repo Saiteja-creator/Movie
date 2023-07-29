@@ -1,0 +1,67 @@
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  margin: 20px;
+}
+.label-text {
+  font-family: 15px;
+}
+.heading {
+  text-align: center;
+}
+
+.input-value {
+  font-family: 'Roboto';
+  font-family: 15px;
+  margin-bottom: 4px;
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .label-text {
+    font-size: 20px;
+  }
+  .input-value {
+    width: 400px;
+  }
+}
+.checkBox-container {
+  display: flex;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button-class {
+  background-color: #93670f;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+.already-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-message {
+  color: red;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.login-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.linked {
+  text-align: center;
+}

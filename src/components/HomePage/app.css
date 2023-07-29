@@ -1,0 +1,52 @@
+.heading {
+  text-align: center;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  background-size: cover;
+  font-family: 'Roboto';
+  min-width: 100vw;
+}
+.movie-nav {
+  width: 70px;
+  height: 60px;
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .movie-nav {
+    height: 70px;
+    width: 100px;
+  }
+}
+.nav-sub {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.each-nav {
+  color: white;
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .each-nav {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+}
+.loader-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listed-movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logout {
+  background-color: burlywood;
+  border: none;
+}
